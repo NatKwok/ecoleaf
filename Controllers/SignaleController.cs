@@ -38,11 +38,6 @@ namespace asp_mvc_webmap_vs.Controllers
                 if (record.Geom is Point Point)
 
                 {
-                    // Replace with the actual fields for latitude and longitude in your model
-                    //var latitude = record.Geom.X;
-                    //var longitude = record.Geom.Y;
-
-                    //var point = new Point(latitude, longitude);
                     var geojsonPoint = new
                     {
                         type = "Point",
